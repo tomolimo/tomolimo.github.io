@@ -1,0 +1,74 @@
+
+/**
+ * @file
+ * Styles for system messages.
+ */
+
+div.messages {
+  background-position: 8px 8px; /* LTR */
+  background-repeat: no-repeat;
+  border: 1px solid;
+  margin: 6px 0;
+  padding: 10px 10px 10px 50px; /* LTR */
+}
+
+div.status {
+  background-image: url(../../misc/message-24-ok.png);
+  border-color: #be7;
+}
+div.status,
+.ok {
+  color: #234600;
+}
+div.status,
+table tr.ok {
+  background-color: #f8fff0;
+}
+
+div.warning {
+  background-image: url(../../misc/message-24-warning.png);  /***edit diego*****/
+  border-color: #E8AB2C;
+  border-radius:10px 10px 10px 10px;  /***edit diego*****/
+}
+div.warning,
+.warning {
+  /*color: #840;*/  /**edit diego***/
+/***add diego***/
+  color: #af7f22;
+  font-size: 14px;  
+/***end diego***/  
+}
+div.warning,
+table tr.warning {
+  /*background-color: #fffce5;*/
+  /***end diego***/background-color: #FEF0B3;/***and diego***/
+}
+
+div.error {
+  background-image: url(../../misc/message-24-error.png);  /***edit diego*****/
+  border-color: #ff0000;    /***edit diego*****/
+  border-radius:10px 10px 10px 10px;  /***edit diego*****/
+}
+div.error,
+.error {
+  color: #ff0000;!important
+/***add diego****/  
+  font-family: arial;
+  font-size: 14px;
+/***end diego****/
+}
+div.error,
+table tr.error {
+  background-color: #FFBABA;   /***edit diego*****/
+}
+div.error p.error {
+  color: #333;
+}
+
+div.messages ul {
+  margin: 0 0 0 1em; /* LTR */
+  padding: 0;
+}
+div.messages ul li {
+  list-style-image: none;
+}
